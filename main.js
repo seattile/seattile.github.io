@@ -11,7 +11,7 @@ function checkPassword() {
         document.getElementById("imagesmemoji").src="img/1c73311c9816b8df-sticker.png";
         message.textContent = "Correct Password! Redirecting...";
         message.style.color = "green";
-        setTimeout(directToPage, 4000);
+        setTimeout(directToPage, 3000);
     } else if(input.value === ""){
         message.textContent = "Please Enter a Password!";
         message.style.color = "red";
