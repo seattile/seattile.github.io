@@ -78,6 +78,55 @@ input[type="password"]{
     animation-duration: 5s;
 }
 
+.threebutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    animation-name: fadeout;
+    animation-duration: 5s;
+}
+
+.threebutton button{
+    background-color: #460606;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.wishes .text-box{
+    border: 3px solid #aaa;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    width: 600px;
+    animation-name: fadeout;
+    animation-duration: 5s;
+}
+
+.text-box p {
+    margin: 0;
+    text-align: left;
+  }
+  
+.text-box span {
+    visibility: hidden;
+  }
+
+.text-box .button2 {
+    background-color: rgb(21, 161, 237);
+    border-radius: 3px;
+    bottom: -50px;
+    color: #fff;
+    padding: .5rem 1rem;
+    position: absolute;
+    right: 5px;
+  }
+
 @keyframes fadeout{
     0%{
         opacity: 0;
